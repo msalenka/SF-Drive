@@ -24,11 +24,6 @@ function Header() {
 
                     <button className="enter_btn is-animated is-desktop">Войти</button>
 
-                    <div className="mobile__burger is-mobile">
-                        <div className="mobile__burger-item"></div>
-                        <div className="mobile__burger-item"></div>
-                        <div className="mobile__burger-item"></div>
-                    </div>
 
                 </div>
 
