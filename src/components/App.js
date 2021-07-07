@@ -1,10 +1,13 @@
 import React from "react";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 import "../styles/App.css"
+
 import Footer from "./Common/Footer";
 import Header from "./Common/Header";
-import Main from "./AboutUs/Main";
+import AboutUs from "./AboutUs/AboutUs";
 import FAQ from "./FAQ/FAQ";
+
 
 
 function App() {
@@ -13,13 +16,22 @@ function App() {
         <div className="wrapper">
             
             <Header />
-            <Main />
-            <FAQ/>
+
+            <Switch>
+
+                <Route path="/faq">
+                    <FAQ/>
+                </Route>
+                
+                <Route path="/">
+                    <AboutUs/>
+                </Route>
+
+            </Switch>
+            
             <Footer />
 
             
-
-
         </div>
       
   );

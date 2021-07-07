@@ -16,9 +16,9 @@ function Header() {
                 
                     <div>
                         <nav className="menu__frame is-desktop">
-                            <a href="" className="menu__frame-link is-active is-animated">О нас</a>
+                            <a href="/" className="menu__frame-link is-active is-animated">О нас</a>
                             <a href="" className="menu__frame-link is-animated">Условия</a>
-                            <a href="" className="menu__frame-link is-animated">Частые вопросы</a>
+                            <a href="/faq" className="menu__frame-link is-animated">Частые вопросы</a>
                         </nav>
                     </div>
 

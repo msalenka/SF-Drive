@@ -5,7 +5,7 @@ import About from "./About"
 import Contacts from "./Contacts";
 import Team from "./Team";
 
-function Main() {
+function AboutUs() {
     return (
         <>
 
@@ -22,4 +22,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default AboutUs;
