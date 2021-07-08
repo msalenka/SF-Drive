@@ -7,6 +7,7 @@ import Footer from "./Common/Footer";
 import Header from "./Common/Header";
 import AboutUs from "./AboutUs/AboutUs";
 import FAQ from "./FAQ/FAQ";
+import Regpage from "./Registration/Regpage";
 
 
 
@@ -22,14 +23,26 @@ function App() {
                 <Route path="/faq">
                     <FAQ/>
                 </Route>
+
+                <Route path="/reg">
+                    <Regpage/>
+                </Route>
                 
-                <Route path="/">
+                <Route exact path="/">
                     <AboutUs/>
                 </Route>
 
             </Switch>
+
+            <Route exact path="/"> 
+                <Footer />
+            </Route>
+
+            <Route exact path="/faq"> 
+                <Footer />
+            </Route>
             
-            <Footer />
+            
 
             
         </div>

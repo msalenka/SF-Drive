@@ -1,8 +1,14 @@
 import React from "react";
+import { useHistory } from "react-router";;
 
 import "../../styles/Header.css"
 
 function Header() {
+
+    function handleClick () {
+        window.location.assign ("/reg");
+    }
+    
     return (
         <>
 
@@ -22,7 +28,7 @@ function Header() {
                         </nav>
                     </div>
 
-                    <button className="enter_btn is-animated is-desktop">Войти</button>
+                    <button  onClick={handleClick} className="enter_btn is-animated is-desktop">Войти</button>
 
 
                 </div>

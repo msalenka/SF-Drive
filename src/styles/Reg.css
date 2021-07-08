@@ -1,0 +1,161 @@
+.page-title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+    text-align: center;
+    margin-top:  14px;
+    margin-bottom:  52px;
+
+}
+
+.reg-step {
+    font-size: 20px;
+    line-height: 147.3%;
+    text-align: center;
+    color: #828282;
+    margin-top: 60px;
+}
+
+.info-title {
+    margin-left: 379px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 147.3%;
+}
+
+.block-title {
+    margin-top: 40px;
+    margin-left: 379px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 147.3%;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+input {
+    font-size: 14px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 12px;
+    padding-right: 13px;
+    height: 44px;
+    color: #BDBDBD;
+    
+}
+
+.username-input {
+    width: 416px;
+
+}
+
+label {
+    font-size: 14px;
+    margin-left: 382px;
+    
+}
+
+.username-label {
+    margin-right: 229px;
+}
+
+.birthday-label {
+    margin-right: 158px;
+}
+
+.birthday-input {
+    width: 155px;
+    color: black;
+}
+
+.email-label {
+    margin-right: 132px;
+}
+
+.email-input {
+    width: 416px;
+}
+
+.number-label {
+    margin-right: 203px;
+}
+
+.number-input {
+    width: 155px;
+}
+
+
+.passport-license-number-label {
+    margin-right: 163px;
+}
+
+.passport-license-number-input {
+    width: 155px;
+}
+.passport-license-date-label {
+    margin-right: 173px;
+}
+
+.passport-license-date-input {
+    width: 155px;
+    color: black;
+}
+
+.passport-emit-label {
+    margin-right: 186px;
+}
+
+.passport-emit-input {
+    width: 416px;
+}
+
+.passport-emit-number-label {
+    margin-right: 129px;
+}
+
+.passport-emit-number-input {
+    width: 155px;
+}
+
+.password-label {
+    margin-right: 128px;
+}
+
+.password-input {
+    width: 416px;
+}
+
+.password-repeat-label {
+    margin-right: 139px;
+}
+
+.password-repeat-input {
+    width: 416px;
+}
+
+.sub-button-wrapper {
+    margin-top: 90px;
+    box-shadow: 0px -1px 0px #DEE2E4;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-button {
+    display: flex;
+    align-items: center;
+    padding: 16px 40px;
+    width: 176px;
+    height: 51px;
+    color: #B4B5BD;
+    background: #E6E6E6;
+    border-radius: 6px;
+    border: solid #E6E6E6;
+}
