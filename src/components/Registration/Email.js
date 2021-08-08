@@ -3,16 +3,16 @@ import { ErrorMessage, useField } from "formik";
 
 import "../../styles/Reg.css"
 
-function Password ( {label, ...props} ) {
+function Email ( {label, ...props} ) {
 const [field, meta] = useField (props)
 console.log(field, meta)
     return (
 
         <>
         <div className='input-wrapper'>
-            <label className='password-label' htmlFor={field.name}>{label}</label>
+            <label className='email-label' htmlFor={field.name}>{label}</label>
             <input 
-            className={`password-input ${meta.touched && meta.error && 'is-invalid'}`}
+            className={`email-input ${meta.touched && meta.error && 'is-invalid'}`}
             {...field} {...props}
             autoComplete='off'/>
         </div>
@@ -21,4 +21,4 @@ console.log(field, meta)
     )
 }
 
-export default Password;
+export default Email;

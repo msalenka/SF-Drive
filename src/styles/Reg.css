@@ -18,7 +18,7 @@
 
 .info-title {
     margin-left: 379px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 36px;
     line-height: 147.3%;
 }
@@ -34,7 +34,7 @@
 .input-wrapper {
     display: flex;
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
     
 }
 
@@ -154,8 +154,26 @@ label {
     padding: 16px 40px;
     width: 176px;
     height: 51px;
+    border-radius: 6px;
+    
+}
+
+.isDisabled {
+    border: solid #E6E6E6;
     color: #B4B5BD;
     background: #E6E6E6;
-    border-radius: 6px;
-    border: solid #E6E6E6;
+
+}
+
+.error {
+    color: #EB5757;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left:  643px;
+    margin-top: 8px;
+    display: block;
+}
+
+.is-invalid {
+    border: 2px solid #EB5757;
 }
