@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Formik, Form } from "formik";
 import * as yup from "yup";
+import axios from "axios";
+import "regenerator-runtime/runtime";
 
 import "../../styles/Reg.css"
 import Name from "./Name";
@@ -51,7 +53,15 @@ function Signup () {
             passwordConfirm: ''
         }}
             validateOnBlur
-            onSubmit={(values) => { console.log(values) }}
+            onSubmit ={ async (values) => {
+            
+                try {
+                    await axios.post("http://localhost:5000/auth/", values)
+
+                } catch (err) {
+                    console.error (err)
+                }
+            }}
             validationSchema={validationsSchema}
 
 
@@ -86,8 +96,8 @@ function Signup () {
                         <Password label='Придумайте пароль' name='password' type='password' placeholder="•••••••••••••••••••"/>
                         <PasswordConfirm label='Повторите пароль' name='passwordConfirm' type='password' placeholder="•••••••••••••••••••"/>
 
-
-
+{/* 
+                        <span>{succes ? succes : ""}</span> */}
                         <div className='sub-button-wrapper'>
                             <button 
                             className='sub-button'
