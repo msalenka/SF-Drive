@@ -50,14 +50,26 @@ input {
     
 }
 
+input:focus {
+    outline: none;
+    border: 2px solid #61A199;
+  }
+
+  input:hover {
+    opacity: 0.7;
+    border: 1px solid #61A199;
+  }
+
+
 .username-input {
     width: 416px;
-
 }
+
 
 label {
     font-size: 14px;
     margin-left: 382px;
+    
     
 }
 
@@ -155,13 +167,16 @@ label {
     width: 176px;
     height: 51px;
     border-radius: 6px;
-    
+    background: #61A199;
+    color: #FFFFFF;
+    border: solid #61A199;
+    cursor: pointer;
+  
 }
-
-.isDisabled {
+.sub-button:disabled {
     border: solid #E6E6E6;
     color: #B4B5BD;
-    background: #E6E6E6;
+    background: #E6E6E6
 
 }
 
@@ -177,3 +192,4 @@ label {
 .is-invalid {
     border: 2px solid #EB5757;
 }
+

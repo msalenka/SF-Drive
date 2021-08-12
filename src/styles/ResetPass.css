@@ -1,0 +1,52 @@
+.reset-h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.reset-input {
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 350px;
+    height: 44px;
+    margin-bottom: 20px;
+    color: #A3A0B1;
+}
+
+.reset-input-wrapper{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset-line {
+    position: absolute;
+    bottom: 290px;
+    left: 77px;
+}
+
+.reset-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 40px;
+    margin-top: 10px;
+
+    position: absolute;
+    width: 250px;
+    height: 51px;
+    left: 127px;
+    bottom: 190px;
+    
+
+    background: #61A199;
+    border-radius: 6px;
+    color: white;
+    border: solid #61A199;
+    cursor: pointer;
+}

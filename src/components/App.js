@@ -12,6 +12,7 @@ import Regpage from "./Registration/Regpage";
 
 
 function App() {
+
     return (
       
         <div className="wrapper">
@@ -27,12 +28,13 @@ function App() {
                 <Route path="/reg">
                     <Regpage/>
                 </Route>
-                
+
                 <Route exact path="/">
                     <AboutUs/>
                 </Route>
 
             </Switch>
+
 
             <Route exact path="/"> 
                 <Footer />

@@ -5,7 +5,7 @@ import "../../styles/Reg.css"
 
 function Password ( {label, ...props} ) {
 const [field, meta] = useField (props)
-console.log(field, meta)
+
     return (
 
         <>
@@ -14,7 +14,9 @@ console.log(field, meta)
             <input 
             className={`password-input ${meta.touched && meta.error && 'is-invalid'}`}
             {...field} {...props}
-            autoComplete='off'/>
+            autoComplete='off'
+            />           
+            
         </div>
         <ErrorMessage name={field.name} component='div' className='error'/>
         </>

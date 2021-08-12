@@ -5,7 +5,6 @@ import "../../styles/Reg.css"
 
 function Email ( {label, ...props} ) {
 const [field, meta] = useField (props)
-console.log(field, meta)
     return (
 
         <>

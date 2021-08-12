@@ -1,7 +1,9 @@
 import React from "react";
+import FaqItems from "./FaqItems";
 
 import "../../styles/FAQ.css"
-import FaqItems from "./FaqItems";
+
+
 
 
 function FAQ() {

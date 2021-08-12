@@ -5,7 +5,7 @@ import "../../styles/Reg.css"
 
 function Name ( {label, ...props} ) {
 const [field, meta] = useField (props)
-console.log(field, meta)
+
     return (
 
         <>

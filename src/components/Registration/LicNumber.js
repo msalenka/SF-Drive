@@ -5,7 +5,6 @@ import "../../styles/Reg.css"
 
 function LicNumber ( {label, ...props} ) {
 const [field, meta] = useField (props)
-console.log(field, meta)
     return (
 
         <>

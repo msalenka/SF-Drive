@@ -5,14 +5,14 @@ import "../../styles/Reg.css"
 
 function PassLicDate ( {label, ...props} ) {
 const [field, meta] = useField (props)
-console.log(field, meta)
+
     return (
 
         <>
         <div className='input-wrapper'>
             <label className='passport-license-date-label' htmlFor={field.name}>{label}</label>
             <input 
-            className={`passport-license-date-input ${meta.touched && meta.error && 'is-invalid'}`}
+            className={`passport-license-date-input calendar ${meta.touched && meta.error && 'is-invalid'}`}
             {...field} {...props}
             autoComplete='off'/>
         </div>
